@@ -1,0 +1,79 @@
+.main {
+    text-align: center;
+    margin: 20px 10% 75px 10%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: hsl(0, 1%, 85%);
+}
+
+header .logo {
+    position: relative;
+    float: left;
+}
+
+#nav-bar {
+    position: relative;
+    float: right;
+    margin-top: 35px;
+    margin-left: 142px;
+}
+
+#nav-bar li{
+    display: inline;
+    list-style: none;
+}
+#nav-bar li a{
+    padding: 0 10px;
+}
+
+.container {
+    display: flex;
+}
+
+
+#video {
+    width: 100%;
+    height: 415px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+
+.container  section{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+#features {
+    flex: 1;
+}
+#features img, #how img, #pricing img{
+    vertical-align: middle;
+}
+#features h1, #how h1, #pricing h1{
+    text-align: center;
+    font-size: 24px;
+    height: auto;
+    padding: 15px ;
+}
+
+@media (max-width:600px) {
+    body{
+        background-color: grey;
+    }
+}
+#how {
+    flex: 1;
+}
+
+#pricing {
+    flex: 1;
+}
+
+#nav-bar {
+    position: top;
+}
